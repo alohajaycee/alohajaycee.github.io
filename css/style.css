@@ -55,3 +55,19 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.pa-100 {
+  padding: 100px;
+}
+
+ul.social-icon-horizontal > li{
+  float:right;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}

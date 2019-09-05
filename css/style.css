@@ -60,6 +60,18 @@ footer.page-footer {
   padding: 100px;
 }
 
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+
+
+
+
 ul.social-icon-horizontal > li{
   float:right;
 }

@@ -84,7 +84,9 @@ ul.social-icon-horizontal > li{
   padding: 10px;
 }
 
-
+.card.extra-small {
+  height: 200px;
+}
 /* ------------------------------------------------------ Padding [start] */
 
 /* adds padding all */

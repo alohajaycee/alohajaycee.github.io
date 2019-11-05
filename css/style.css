@@ -11,6 +11,10 @@ nav .brand-logo {
   color: #444;
 }
 
+body {
+  background-color: white!important;
+}
+
 .sidenav-trigger {
   color: #26a69a;
 }

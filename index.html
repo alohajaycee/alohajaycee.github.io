@@ -207,12 +207,18 @@
 
 		<div class="row mt-100 mb-100">
 			<div class="col s12 m6 l6">
-				<div class="card extra-small">
-					<div class="card-content">
-
-						<h2 class="mt-0"></h2>
-					</div>
+				<h2 class="mt-0">This website was designed by me, so was these things:</h2>
+			</div>
+			<div class="col s12 m6 l6">
+				
+				<div class="carousel">
+					<a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1">Classic Kush Co. Logo</a>
+					<a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2">Worldwide B2B Services Branding</a>
+					<a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+					<a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+					<a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
 				</div>
+      
 			</div>
 		</div>
 
@@ -369,6 +375,7 @@
 		$("#current-year").append(new Date().getFullYear());
 		$('.tooltipped').tooltip();
 		console.log("%c This looks awkward",  "background: black; padding:20px; color: #7FFF00;");
+		$('.carousel').carousel();
 	});
         
 

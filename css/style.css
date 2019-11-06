@@ -93,6 +93,13 @@ ul.social-icon-horizontal > li{
 .card.extra-small {
   height: 200px;
 }
+
+.carousel .carousel-item > img {
+  border-radius: 3px
+}
+.carousel{
+  overflow: visible!important;
+}
 /* ------------------------------------------------------ Padding [start] */
 
 /* adds padding all */

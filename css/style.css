@@ -44,7 +44,9 @@ body {
     top: 0;
   }
 }
-
+.white,.black{
+  transition: background-color 0.5s ease;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -72,7 +74,7 @@ footer.page-footer {
 
 .mynav > nav {
   height: 120px;
-  box-shadow: none;
+  /* box-shadow: none; */
 }
 
 .conference-hero {

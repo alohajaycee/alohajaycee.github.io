@@ -384,8 +384,24 @@
 	$(document).ready(function(){
 		$("#current-year").append(new Date().getFullYear());
 		$('.tooltipped').tooltip();
-		console.log("%c This looks awkward",  "background: black; padding:20px; color: #7FFF00;");
+		console.log("%c This looks awkwSard",  "background: black; padding:20px; color: #7FFF00;");
 		$('.carousel').carousel();
+
+	    
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+				scroll_pos = $(this).scrollTop();
+				
+				console.log(scroll_pos)
+                if(scroll_pos > 350) {
+                    $("nav").removeClass('black').addClass('white z-depth-3');
+                } else {
+		
+                    $("nav").removeClass('white z-depth-3').addClass('black');
+					
+                }
+            });
+        
 	});
         
 
